@@ -1,0 +1,66 @@
+:root {
+                    --background-color: #ffffff;
+                    --poweredbybg-color: #f0f0f0;
+                    --text-color: #000000;
+                    --link-color: #008DFF;
+                    --linkhover-color: #005A88;
+                    --main-font: "Arvo";
+                }
+
+                * {
+                    font-family: var(--main-font);
+                    color: var(--text-color);
+                }
+
+                body {
+                    padding: 0;
+                    margin: 0;
+                    -webkit-text-size-adjust: 100%;
+                    -webkit-font-smoothing: antialiased;
+                    -moz-osx-font-smoothing: grayscale;
+                    text-rendering: optimizeLegibility;
+                    -webkit-font-feature-settings: "pnum";
+                    font-feature-settings: "pnum";
+                    font-variant-numeric: proportional-nums;
+                    position: relative;
+                    background: #fff;
+                    height: 100%;
+                    color: var(--text-color);
+                    text-align: center;
+                }
+
+                a {
+                    color: var(--link-color);
+                    transition: all 0.2s linear;
+                }
+
+                a:focus, a:hover {
+                    color: var(--linkhover-color);
+                }
+
+                a.nohover:hover {
+                    text-decoration: none;
+                }
+
+                h1 {
+                    font-size: 3.2em;
+                    margin-bottom: 0;
+                    font-weight: bold;
+                    letter-spacing: 0.05em;
+                }
+
+                h2 {
+                    margin-top: 0;
+                    margin-bottom: 0.3em;
+                    font-size: 1.8em;
+                    font-weight: bold;
+                }
+
+                h3 {
+                    font-weight: normal;
+                    font-size: 16px;
+                }
+
+                html {
+                    height: 100%;
+                }

@@ -1,0 +1,72 @@
+* {
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+font-family: Arial, sans-serif;
+}
+
+body {
+padding: 0;
+margin: 0;
+-webkit-text-size-adjust: 100%;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+text-rendering: optimizeLegibility;
+-webkit-font-feature-settings: "pnum";
+font-feature-settings: "pnum";
+font-variant-numeric: proportional-nums;
+position: relative;
+background: #fff;
+}
+
+.container {
+padding-right: 0;
+padding-left: 0;
+margin-right: auto;
+margin-left: auto;
+}
+
+@media (min-width: 768px) {
+.container {
+    width: 738px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+}
+
+@media (min-width: 992px) {
+.container {
+    width: 962px;
+}
+}
+
+@media (min-width: 1200px) {
+.container {
+    width: 1170px;
+}
+}
+
+.main-container {
+color: #222;
+text-align: left !important;
+padding: 2em;
+padding-top: 0;
+background: #fff;
+min-height: 400px;
+-webkit-box-shadow: 0 0 3px 0 rgba(0, 0, 0, .25);
+-moz-box-shadow: 0 0 3px 0 rgba(0, 0, 0, .25);
+box-shadow: 0 0 3px 0 rgba(0, 0, 0, .25)
+}
+
+a {
+color: #009c9c
+}
+
+a:hover {
+color: #007bff
+}
+
+h2 {
+font-size: 1.5em
+}
