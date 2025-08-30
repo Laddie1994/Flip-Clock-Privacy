@@ -3,7 +3,7 @@
 * {
 -webkit-font-smoothing: antialiased;
 -moz-osx-font-smoothing: grayscale;
-font-family: Arial, sans-serif;
+font-family: -apple-system,'BlinkMacSystemFont','.SFNSDisplay-Regular','Helvetica Neue', helvetica, arial, "ヒラギノ角ゴ ProN W3","Hiragino Kaku Gothic Pro", "メイリオ", "ＭＳ Ｐゴシック", sans-serif;
 }
 
 body {
