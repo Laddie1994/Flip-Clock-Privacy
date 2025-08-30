@@ -27,7 +27,7 @@
                 a {
                     color: var(--link-color);
                     transition: all 0.2s linear;
-                    font-weight: 400;
+                    font-weight: 500;
                 }
 
                 a:focus, a:hover {
